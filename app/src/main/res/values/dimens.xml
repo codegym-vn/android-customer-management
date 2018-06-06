@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="rowPadding">6px</dimen>
+    <dimen name="borderMargin">10sp</dimen>
+    <dimen name="upperFontSize">16sp</dimen>
+    <dimen name="lowerFontSize">14sp</dimen>
+</resources>

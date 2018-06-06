@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/borderMargin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firstName"
+        android:textSize="@dimen/upperFontSize"/>
+
+    <EditText
+        android:id="@+id/edited_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/firstname_hint"
+        android:textSize="@dimen/lowerFontSize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lastName"
+        android:textSize="@dimen/upperFontSize"/>
+
+    <EditText
+        android:id="@+id/edited_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lastname_hint"
+        android:textSize="@dimen/lowerFontSize"/>
+
+</LinearLayout>
